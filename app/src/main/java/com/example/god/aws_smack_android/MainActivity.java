@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         //http://52.78.215.218:9090/plugins/restapi/v1/users
         // Basic HTTP Authentication
-        AuthenticationToken authenticationToken = new AuthenticationToken("admin", "qwer!@#$");
+        AuthenticationToken authenticationToken = new AuthenticationToken("", "");
 
         RestApiClient restApiClient = new RestApiClient("http://52.78.215.218", 9090, authenticationToken);
 
